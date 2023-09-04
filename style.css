@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+h1 {
+  color: #252525;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 52px;
+}
+
+.container {
+  padding: 31.01px 0px 31.99px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.header__items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  gap: 55px;
+}
+.header__nav-item {
+  align-self: center;
+}
+.img_logo {
+  margin-right: 36.15px;
+  align-self: center;
+}
+.header__direction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15.08px;
+  padding: 12.22px 26px 13.56px 27.17px;
+  background-color: #ffd600;
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  border-radius: 100px;
+  margin-right: 49.92px;
+  border: none;
+  cursor: pointer;
+}
+.header__nav-tooltip {
+  display: none;
+}
+.button_like {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #f5f5f5;
+  border: none;
+  cursor: pointer;
+}
+.button_in {
+  width: 114.25px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #f5f5f5;
+  border: none;
+  cursor: pointer;
+}
+.header__control {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.header_and_button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav {
+  justify-self: flex-start;
+}
+.header__control {
+  justify-self: flex-end;
+}
+.container_hero {
+  background-image: url(./background/man-sits-end-trolltunga-before-mountains\ 1.png);
+  background-repeat: no-repeat;
+  width: 1676.475px;
+  height: 639px;
+  border-radius: 20px;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero__title {
+  margin-top: 123.09px;
+  max-width: 549px;
+  color: #252525;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 52px;
+}
+.hero__title::after {
+}
+.hero__subtitle {
+  margin-top: 49px;
+}

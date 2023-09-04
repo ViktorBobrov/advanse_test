@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Tenloc</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__items">
+          <img src="./icons/Логотип.svg" alt="" class="img_logo" />
+          <button class="header__direction">
+            Направления
+            <img
+              src="./icons/arrow-down-sign-to-navigate 1.svg"
+              alt="стрелка вниз"
+            />
+          </button>
+          <div class="header_and_button-wrapper">
+            <div class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">O сервисе</li>
+                <li class="header__nav-item">Блог</li>
+                <li class="header__nav-item">
+                  <span>Помощь Клиентам</span>
+                  <img
+                    src="./icons/arrow-down-sign-to-navigate 1.svg"
+                    alt="стрелка вниз"
+                  />
+                  <div class="header__nav-tooltip">
+                    <span>мы на связи</span>
+                    <div class="someClass">
+                      <button></button>
+                      <button></button>
+                    </div>
+                    <div class="someClass">
+                      <a
+                        href="phone:3423423"
+                        class="connect-us connect-us--phone"
+                        >qwdwqdwq</a
+                      >
+                      <a
+                        href="mailto:3423423"
+                        class="connect-us connect-us--mail"
+                        >qwdqwdwq</a
+                      >
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="header__control">
+              <button class="button_like">
+                <img src="./icons/Vector_heart.svg" alt="like" />
+              </button>
+              <button class="button_in">войти</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero_section">
+        <div class="container_hero">
+          <h1 class="hero__title">Поиск и бронирование экскурсий</h1>
+          <div class="hero__subtitle">
+            Экскурсии и частные гиды в России и за рубежом
+          </div>
+          <div class="hero__search">
+            <div class="hero__search-inputs" style="padding: 8px 0">
+              <input type="text" />
+              <input type="text" class="left-border" />
+            </div>
+            <div class="hero__search-button">
+              <button class="button button--yellow"></button>
+            </div>
+          </div>
+          <div class="hero__relevant">
+            <!-- display: flex
+                justify-content: space-between -->
+            <div>Часто ищут:</div>
+            <div class="item__roundet">дубай</div>
+            <div class="item__roundet">стамбул</div>
+            <div class="item__roundet">санкт-петербург</div>
+            <div class="item__roundet">Казань</div>
+          </div>
+        </div>
+      </section>
+      <section class="section__accent">
+        <div class="blog">
+          <div class="blog__nav">
+            <h2>Блог</h2>
+            <ul class="slider__nac">
+              <li class="slider__arrow prev"></li>
+              <li class="slider__arrow next"></li>
+            </ul>
+            <button class="button small flex-right">В блог</button>
+          </div>
+          <div class="blog__slider">
+            <div class="slider"></div>
+          </div>
+          <a class="link phone"><span class="bold">Офис</span> qdqqwdqwd</a>
+          <a class="link mail"><span class="bold">Офис</span> qdqqwdqwd</a>
+          <span class="link geo"><span class="bold">Офис</span> qdqqwdqwd</span>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
