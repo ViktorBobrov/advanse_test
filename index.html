@@ -27,45 +27,40 @@
               alt="стрелка вниз"
             />
           </button>
-          <div class="header_and_button-wrapper">
-            <div class="header__nav">
-              <ul class="header__nav-list">
-                <li class="header__nav-item">O сервисе</li>
-                <li class="header__nav-item">Блог</li>
-                <li class="header__nav-item">
-                  <span>Помощь Клиентам</span>
-                  <img
-                    src="./icons/arrow-down-sign-to-navigate 1.svg"
-                    alt="стрелка вниз"
-                  />
-                  <div class="header__nav-tooltip">
-                    <span>мы на связи</span>
-                    <div class="someClass">
-                      <button></button>
-                      <button></button>
-                    </div>
-                    <div class="someClass">
-                      <a
-                        href="phone:3423423"
-                        class="connect-us connect-us--phone"
-                        >qwdwqdwq</a
-                      >
-                      <a
-                        href="mailto:3423423"
-                        class="connect-us connect-us--mail"
-                        >qwdqwdwq</a
-                      >
-                    </div>
+
+          <div class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">O сервисе</li>
+              <li class="header__nav-item">Блог</li>
+              <li class="header__nav-item">
+                <span>Помощь Клиентам</span>
+                <img
+                  src="./icons/arrow-down-sign-to-navigate 1.svg"
+                  alt="стрелка вниз"
+                />
+                <div class="header__nav-tooltip">
+                  <span>мы на связи</span>
+                  <div class="someClass">
+                    <button></button>
+                    <button></button>
                   </div>
-                </li>
-              </ul>
-            </div>
-            <div class="header__control">
-              <button class="button_like">
-                <img src="./icons/Vector_heart.svg" alt="like" />
-              </button>
-              <button class="button_in">войти</button>
-            </div>
+                  <div class="someClass">
+                    <a href="phone:3423423" class="connect-us connect-us--phone"
+                      >qwdwqdwq</a
+                    >
+                    <a href="mailto:3423423" class="connect-us connect-us--mail"
+                      >qwdqwdwq</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="header__control">
+            <button class="button_like">
+              <img src="./icons/Vector_heart.svg" alt="like" />
+            </button>
+            <button class="button_in">войти</button>
           </div>
         </div>
       </div>
@@ -78,18 +73,35 @@
             Экскурсии и частные гиды в России и за рубежом
           </div>
           <div class="hero__search">
-            <div class="hero__search-inputs" style="padding: 8px 0">
-              <input type="text" />
-              <input type="text" class="left-border" />
+            <div class="wrapper_elem-search">
+              <div class="pin_search">
+                <img src="./icons/pin 1.svg" alt="" class="pin_search-img" />
+              </div>
+
+              <input
+                type="text"
+                placeholder="Выберите направление"
+                class="chose_spase"
+              />
             </div>
+            <div class="wrapper_elem-search elem2">
+              <div class="data_img">
+                <img src="./icons/calendar 1.svg" alt="" class="calendar" />
+              </div>
+              <input type="text" class="data_input" placeholder="Дата" />
+            </div>
+
             <div class="hero__search-button">
-              <button class="button button--yellow"></button>
+              <button class="button button--yellow">
+                <img src="./icons/loupe 1.svg" alt="" />
+                Найти
+              </button>
             </div>
           </div>
           <div class="hero__relevant">
             <!-- display: flex
                 justify-content: space-between -->
-            <div>Часто ищут:</div>
+            <div class="search_more"><b>Часто ищут:</b></div>
             <div class="item__roundet">дубай</div>
             <div class="item__roundet">стамбул</div>
             <div class="item__roundet">санкт-петербург</div>
@@ -97,10 +109,270 @@
           </div>
         </div>
       </section>
+      <section class="popular_destinations">
+        <h2 class="popular_destinations-head">Популярные направления</h2>
+        <div class="popular_destinations-subhead">
+          Проводим индивидуальные и групповые экскурсии на русском языке
+        </div>
+        <div class="popular_destinations-card_wrapper">
+          <div class="popular_destinations-card dubai_back">
+            <h2 class="popular_destinations-card_head">Дубай</h2>
+            <button class="popular_destinations-card_button">
+              15 экскурсий
+            </button>
+          </div>
+          <div class="popular_destinations-card stambul_back">
+            <h2 class="popular_destinations-card_head">Стамбул</h2>
+            <button class="popular_destinations-card_button">
+              15 экскурсий
+            </button>
+          </div>
+          <div class="popular_destinations-card peterburg_back">
+            <h2 class="popular_destinations-card_head">Санкт-Петербург</h2>
+            <button class="popular_destinations-card_button">
+              15 экскурсий
+            </button>
+          </div>
+          <div class="popular_destinations-card karelia_back">
+            <h2 class="popular_destinations-card_head">Карелия</h2>
+            <button class="popular_destinations-card_button">
+              15 экскурсий
+            </button>
+          </div>
+          <div class="popular_destinations-card kalina_back">
+            <h2 class="popular_destinations-card_head">Калининград</h2>
+            <button class="popular_destinations-card_button">
+              15 экскурсий
+            </button>
+          </div>
+          <div class="popular_destinations-card murmansk_back">
+            <h2 class="popular_destinations-card_head">Мурманск</h2>
+            <button class="popular_destinations-card_button">
+              15 экскурсий
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="excursions">
+        <div class="execursions_wrap-head">
+          <h2 class="execursions_head">Экскурсии</h2>
+          <div class="select">
+            <select>
+              <option value="" disabled selected hidden>Выберите город</option>
+              <option value="1">Дубай</option>
+              <option value="2">Стамбул</option>
+              <option value="3">Санкт-Петербург</option>
+              <option value="3">Карелия</option>
+              <option value="3">Калининград</option>
+              <option value="3">Мурманск</option>
+            </select>
+          </div>
+          <div class="choose_data">
+            <input
+              type="text"
+              placeholder="Выберите дату"
+              class="date_holder"
+            />
+            <img
+              src="./icons/calendar 2.svg"
+              alt="календарь"
+              class="day_list"
+            />
+          </div>
+        </div>
+        <div class="execursions_wrap-card">
+          <div class="execursions_kard">
+            <img
+              src="./background/execursions/ermitage.png"
+              alt="ермитаж"
+              class="execursions_img"
+            />
+            <div class="execursions_kard-wrap_text">
+              <h6 class="execursions_kard-head">
+                Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+              </h6>
+              <p class="execursions_kard-text">
+                Двухчасовая экскурсия по Эрмитажу в мини-группе — история
+                Зимнего дворца и шедевры мастеров Западной Европы.
+              </p>
+              <div class="price_plus">
+                <div class="price_time">
+                  <div class="price">от 2750 ₽ / с чел</div>
+                  <div class="select_time">Выбрать время</div>
+                </div>
+                <img src="" alt="" class="plus" />
+              </div>
+            </div>
+          </div>
+          <div class="execursions_kard">
+            <img
+              src="./background/execursions/ermitage.png"
+              alt="ермитаж"
+              class="execursions_img"
+            />
+            <div class="execursions_kard-wrap_text">
+              <h6 class="execursions_kard-head">
+                Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+              </h6>
+              <p class="execursions_kard-text">
+                Двухчасовая экскурсия по Эрмитажу в мини-группе — история
+                Зимнего дворца и шедевры мастеров Западной Европы.
+              </p>
+              <div class="price_plus">
+                <div class="price_time">
+                  <div class="price">от 2750 ₽ / с чел</div>
+                  <div class="select_time">Выбрать время</div>
+                </div>
+                <img src="" alt="" class="plus" />
+              </div>
+            </div>
+          </div>
+          <div class="execursions_kard">
+            <img
+              src="./background/execursions/ermitage.png"
+              alt="ермитаж"
+              class="execursions_img"
+            />
+            <div class="execursions_kard-wrap_text">
+              <h6 class="execursions_kard-head">
+                Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+              </h6>
+              <p class="execursions_kard-text">
+                Двухчасовая экскурсия по Эрмитажу в мини-группе — история
+                Зимнего дворца и шедевры мастеров Западной Европы.
+              </p>
+              <div class="price_plus">
+                <div class="price_time">
+                  <div class="price">от 2750 ₽ / с чел</div>
+                  <div class="select_time">Выбрать время</div>
+                </div>
+                <img src="" alt="" class="plus" />
+              </div>
+            </div>
+          </div>
+          <div class="execursions_kard">
+            <img
+              src="./background/execursions/ermitage.png"
+              alt="ермитаж"
+              class="execursions_img"
+            />
+            <div class="execursions_kard-wrap_text">
+              <h6 class="execursions_kard-head">
+                Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+              </h6>
+              <p class="execursions_kard-text">
+                Двухчасовая экскурсия по Эрмитажу в мини-группе — история
+                Зимнего дворца и шедевры мастеров Западной Европы.
+              </p>
+              <div class="price_plus">
+                <div class="price_time">
+                  <div class="price">от 2750 ₽ / с чел</div>
+                  <div class="select_time">Выбрать время</div>
+                </div>
+                <img src="" alt="" class="plus" />
+              </div>
+            </div>
+          </div>
+          <div class="execursions_kard">
+            <img
+              src="./background/execursions/ermitage.png"
+              alt="ермитаж"
+              class="execursions_img"
+            />
+            <div class="execursions_kard-wrap_text">
+              <h6 class="execursions_kard-head">
+                Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+              </h6>
+              <p class="execursions_kard-text">
+                Двухчасовая экскурсия по Эрмитажу в мини-группе — история
+                Зимнего дворца и шедевры мастеров Западной Европы.
+              </p>
+              <div class="price_plus">
+                <div class="price_time">
+                  <div class="price">от 2750 ₽ / с чел</div>
+                  <div class="select_time">Выбрать время</div>
+                </div>
+                <img src="" alt="" class="plus" />
+              </div>
+            </div>
+          </div>
+          <div class="execursions_kard">
+            <img
+              src="./background/execursions/ermitage.png"
+              alt="ермитаж"
+              class="execursions_img"
+            />
+            <div class="execursions_kard-wrap_text">
+              <h6 class="execursions_kard-head">
+                Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+              </h6>
+              <p class="execursions_kard-text">
+                Двухчасовая экскурсия по Эрмитажу в мини-группе — история
+                Зимнего дворца и шедевры мастеров Западной Европы.
+              </p>
+              <div class="price_plus">
+                <div class="price_time">
+                  <div class="price">от 2750 ₽ / с чел</div>
+                  <div class="select_time">Выбрать время</div>
+                </div>
+                <img src="" alt="" class="plus" />
+              </div>
+            </div>
+          </div>
+          <div class="execursions_kard">
+            <img
+              src="./background/execursions/ermitage.png"
+              alt="ермитаж"
+              class="execursions_img"
+            />
+            <div class="execursions_kard-wrap_text">
+              <h6 class="execursions_kard-head">
+                Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+              </h6>
+              <p class="execursions_kard-text">
+                Двухчасовая экскурсия по Эрмитажу в мини-группе — история
+                Зимнего дворца и шедевры мастеров Западной Европы.
+              </p>
+              <div class="price_plus">
+                <div class="price_time">
+                  <div class="price">от 2750 ₽ / с чел</div>
+                  <div class="select_time">Выбрать время</div>
+                </div>
+                <img src="" alt="" class="plus" />
+              </div>
+            </div>
+          </div>
+          <div class="execursions_kard">
+            <img
+              src="./background/execursions/ermitage.png"
+              alt="ермитаж"
+              class="execursions_img"
+            />
+            <div class="execursions_kard-wrap_text">
+              <h6 class="execursions_kard-head">
+                Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+              </h6>
+              <p class="execursions_kard-text">
+                Двухчасовая экскурсия по Эрмитажу в мини-группе — история
+                Зимнего дворца и шедевры мастеров Западной Европы.
+              </p>
+              <div class="price_plus">
+                <div class="price_time">
+                  <div class="price">от 2750 ₽ / с чел</div>
+                  <div class="select_time">Выбрать время</div>
+                </div>
+                <img src="" alt="" class="plus" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section__accent">
         <div class="blog">
           <div class="blog__nav">
             <h2>Блог</h2>
+            <div class="subheader_blog"></div>
             <ul class="slider__nac">
               <li class="slider__arrow prev"></li>
               <li class="slider__arrow next"></li>
