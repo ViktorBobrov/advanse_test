@@ -5,10 +5,18 @@
   font-family: "Inter", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
-body {
+
+.grand_wrapper {
+  background: linear-gradient(180deg, #fff 0%, rgba(217, 217, 217, 0) 100%);
+  padding-bottom: 119px;
+  border-radius: 0px 0px 50px 50px;
+}
+.width_wrapper {
   margin: 0 auto;
+  background: linear-gradient(180deg, #fff 0%, rgba(217, 217, 217, 0) 100%);
   max-width: 1440px;
 }
+
 h1 {
   color: #252525;
   text-align: center;
@@ -18,6 +26,7 @@ h1 {
   font-weight: 900;
   line-height: 52px;
 }
+
 h2 {
   color: #252525;
   font-family: Montserrat;
@@ -26,6 +35,7 @@ h2 {
   font-weight: 800;
   line-height: normal;
 }
+
 .container {
   padding: 31.01px 0px 31.99px 0px;
   display: flex;
@@ -33,12 +43,14 @@ h2 {
   align-items: center;
   background: #fff;
 }
+
 .header__items {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
 }
+
 .header__nav-list {
   list-style-type: none;
   display: flex;
@@ -47,13 +59,16 @@ h2 {
   align-items: center;
   gap: 55px;
 }
+
 .header__nav-item {
   align-self: center;
 }
+
 .img_logo {
   margin-right: 36.15px;
   align-self: center;
 }
+
 .header__direction {
   display: flex;
   flex-direction: row;
@@ -72,9 +87,11 @@ h2 {
   border: none;
   cursor: pointer;
 }
+
 .header__nav-tooltip {
   display: none;
 }
+
 .button_like {
   width: 50px;
   height: 50px;
@@ -84,6 +101,7 @@ h2 {
   border: none;
   cursor: pointer;
 }
+
 .button_in {
   width: 114.25px;
   height: 50px;
@@ -93,6 +111,7 @@ h2 {
   border: none;
   cursor: pointer;
 }
+
 .header__control {
   display: flex;
   flex-direction: row;
@@ -100,18 +119,22 @@ h2 {
   align-items: center;
   margin-left: auto;
 }
+
 .header_and_button-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+
 .header__nav {
   justify-self: flex-start;
 }
+
 .header__control {
   justify-self: flex-end;
 }
+
 .container_hero {
   background-image: url(./background/man-sits-end-trolltunga-before-mountains\ 1.png);
   background-repeat: no-repeat;
@@ -137,6 +160,7 @@ h2 {
   position: relative;
   opacity: 100%;
 }
+
 .hero__title::after {
   content: "";
   background: url(./icons/swoosh.svg);
@@ -148,9 +172,11 @@ h2 {
   left: 160px;
   opacity: 100%;
 }
+
 .hero__subtitle {
   margin-top: 49px;
 }
+
 .hero__subtitle {
   color: #252525;
   text-align: center;
@@ -160,6 +186,7 @@ h2 {
   font-weight: 400;
   line-height: normal;
 }
+
 .hero__search {
   display: flex;
   flex-direction: row;
@@ -180,6 +207,7 @@ h2 {
   justify-content: flex-start;
   align-items: center;
 }
+
 .pin_search {
   border: 1px solid #dbdbdb;
   border-radius: 50%;
@@ -192,10 +220,12 @@ h2 {
   justify-content: center;
   flex-direction: row;
 }
+
 .pin_search-img {
   width: 18px;
   height: 18px;
 }
+
 .chose_spase {
   height: 18px;
   width: 191px;
@@ -209,14 +239,17 @@ h2 {
   margin-right: 28px;
   cursor: pointer;
 }
+
 .hero__search-input_right {
   border-left: 2px solid #ebebeb;
 }
+
 .hero__search-inputs {
   display: flex;
   flex-direction: row;
   gap: 55px;
 }
+
 .data_img {
   border: 1px solid #dbdbdb;
   background: #fff;
@@ -229,6 +262,7 @@ h2 {
   align-items: center;
   margin-right: 14.79px;
 }
+
 .data_input {
   border: none;
   cursor: pointer;
@@ -239,12 +273,14 @@ h2 {
   font-weight: 500;
   line-height: normal;
 }
+
 .data_input:focus,
 .chose_spase:focus {
   outline: 0;
   outline-offset: 0;
   cursor: pointer;
 }
+
 .button--yellow {
   color: #000;
   font-family: Montserrat;
@@ -263,9 +299,11 @@ h2 {
   cursor: pointer;
   align-self: flex-end;
 }
+
 .button--yellow:hover {
   background-color: #eac405;
 }
+
 .hero__relevant {
   display: flex;
   flex-direction: row;
@@ -274,6 +312,7 @@ h2 {
   gap: 15px;
   margin-top: 126.51px;
 }
+
 .search_more {
   color: #252525;
   font-family: Montserrat;
@@ -283,6 +322,7 @@ h2 {
   line-height: 25px;
   margin-right: 3px;
 }
+
 .item__roundet {
   color: #fff;
   text-align: center;
@@ -303,17 +343,21 @@ h2 {
   background-color: rgba(37, 37, 37, 1);
   cursor: pointer;
 }
+
 .elem2 {
   margin-right: auto;
 }
+
 .section__accent {
   margin-top: 93.07px;
 }
+
 /* popular_destinations*/
 
 .popular_destinations {
   margin-top: 93.07px;
 }
+
 .popular_destinations-subhead {
   color: #252525;
   font-family: Montserrat;
@@ -323,6 +367,7 @@ h2 {
   line-height: normal;
   margin-top: 17px;
 }
+
 .popular_destinations-card_wrapper {
   margin-top: 63.02px;
   display: flex;
@@ -332,24 +377,31 @@ h2 {
   width: 100%;
   gap: 45.15px;
 }
+
 .dubai_back {
   background: url(./background/dubai.png);
 }
+
 .stambul_back {
   background: url(./background/stambul.png);
 }
+
 .peterburg_back {
   background: url(./background/peterburg.png);
 }
+
 .karelia_back {
   background: url(./background/karelia.png);
 }
+
 .kalina_back {
   background: url(./background/kaliningrad.png);
 }
+
 .murmansk_back {
   background: url(./background/murmansk.png);
 }
+
 .murmansk_back,
 .kalina_back,
 .karelia_back,
@@ -377,6 +429,7 @@ h2 {
   bottom: 91.34px;
   left: 46.78px;
 }
+
 .popular_destinations-card_button {
   padding: 8.29px 16.51px 6.87px 15.38px;
   border-radius: 100px;
@@ -399,6 +452,7 @@ h2 {
 .excursions {
   margin-top: 108.02px;
 }
+
 .execursions_head {
   color: #252525;
   font-family: Montserrat;
@@ -408,6 +462,7 @@ h2 {
   line-height: normal;
   margin-right: 54px;
 }
+
 select {
   appearance: none;
   outline: 10px black;
@@ -421,6 +476,7 @@ select {
   cursor: pointer;
   border-radius: 10px;
 }
+
 .select {
   position: relative;
   display: flex;
@@ -430,6 +486,7 @@ select {
   overflow: hidden;
   margin-right: 29px;
 }
+
 .select::after {
   content: url(./icons/arrow-down-sign-to-navigate\ 1.svg);
 
@@ -444,22 +501,27 @@ select {
   transition: 0.25s all ease;
   pointer-events: none;
 }
+
 .select:hover::after {
   color: #f39c12;
 }
+
 option {
   border: none;
 }
+
 .execursions_wrap-head {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .date_holder {
   border: none;
   outline: 0;
   outline-offset: 0;
 }
+
 .choose_data {
   border: 2px solid #e6e6e6;
   display: flex;
@@ -471,6 +533,7 @@ option {
 
   cursor: pointer;
 }
+
 .execursions_wrap-card {
   margin-top: 77px;
   display: flex;
@@ -478,9 +541,291 @@ option {
   gap: 35px;
   flex-wrap: wrap;
 }
+
 .execursions_kard {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   max-width: 333.677px;
+  border-radius: 20px;
+  border: 1px solid #dfdfdf;
+}
+
+.execursions_kard-wrap_text {
+  padding: 21px 14px 19px 25px;
+}
+
+.execursions_kard-head {
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.execursions_kard-text {
+  margin-top: 10px;
+  color: #6a6a6a;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 16px;
+}
+
+/* .price_time {
+} */
+.price_plus {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price {
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.price_bold {
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.select_time,
+.time_time {
+  margin-top: 8px;
+  border-radius: 1000px;
+  border: 1px solid #e9e9e9;
+  padding: 8px 14px;
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.select_time::after {
+  content: url(/icons/arrow-down-sign-to-navigate\ 1.svg);
+  padding-left: 5px;
+  padding-top: 16px;
+}
+
+.plus {
+  width: 20px;
+  height: 20px;
+  background: #e9e9e9;
+  border-radius: 100px;
+  padding: 23px 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.execursions_button-bottom-wrap {
+  margin-top: 73px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.execursions_button-bottom {
+  width: 157px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 100px;
+  background: #ffd600;
+  padding: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.reviews {
+  margin-top: 104px;
+}
+/* .reviews_wrapper::after {
+  content: "";
+  width: 1700px;
+  height: 119px;
+  background: rgb(16, 3, 3);
+  border-radius: 0px 0px 50px 50px;
+  z-index: 1;
+  position: absolute;
+  bottom: -110px;
+  left: -120px;
+} */
+.reviews_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1440px;
+}
+.reviews_wertical-wrap {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 27px 31px 0px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  padding: 69px 91px 81px 100px;
+}
+
+.reviews_hero {
+  max-width: 318px;
+}
+
+.reviews_hero-head {
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.reviews_hero-par {
+  margin-top: 21px;
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.reviews_hero-button {
+  margin-top: 68px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 100px;
+  background: #ffd600;
+  padding: 18px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.reviews_swiper {
+  width: 733px;
+}
+
+.swiper_foto-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+}
+
+.swiper_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.swiper_inside_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.swiper_head {
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.tour_and_stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 49px;
+  padding: 8px 0px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.swiper_inside-text {
+  color: #252525;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+}
+.controls {
+  margin-top: 54.25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 31px;
+}
+.arrovs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+}
+.arrow_left,
+.arrow_right {
+  border: 2px solid #d2d2d2;
+  border-radius: 100px;
+  padding: 14px 13px 13px 14px;
+}
+.section__accent {
+  background-color: #f5f5f5;
+}
+
+.blog {
+  margin-top: 95px;
+}
+.blog__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button_small {
+  border-radius: 100px;
+  background: #fff;
+  color: #454545;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 12px 21px;
+}
+.slider__nac {
+  display: flex;
+  list-style-type: none;
 }
